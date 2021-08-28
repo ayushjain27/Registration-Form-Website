@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        margin: 0px;
+        padding: 0px;
+        background: url('../img/cd.jpg')  no-repeat center center/cover;
+        z-index: -1;
+        /* background-color: black; */
+}
+
+/* form box */
+.container{
+    border: 2px solid grey;
+    display: inline-block;
+    width: 45%;
+    margin: auto;
+    margin-top: 55px;
+    margin-left: 380px;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 62%;
+    z-index: -1;
+    opacity: 0.1;
+    background-color: grey;
+}
+
+/* Registration form heading */
+h2{
+    font-size: 60px;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 380px;
+    color: wheat;
+}
+
+/* Registration form */
+h1{
+    font-size: 44px;
+    /* width: 30%; */
+    margin-left: 80px;
+    padding: 25px 62px;
+    color: wheat;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', 'cursive';
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 9px;
+    border: 2px solid;
+    margin: 5px auto;
+    font-size: px;
+    border-radius: 18px;
+}
+
+/* Checkbox and terms checkbox */
+#check{
+    display: inline;
+    margin-right: 180px;
+    margin-left: 90px;
+    margin-top: 2px;
+    padding-top: 25px;
+}
+
+h5{
+    /* display: inline; */
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 278px;
+    margin-top: -18px;
+    color: wheat;
+}
+
+a{
+    color: thistle;
+}
+
+/* Register Now Button */
+.container button {
+    display: block;
+    color: white;
+    background-color: #211f1f;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border: 2px solid grey;
+    border-radius: 60px;
+    /* font-weight: bold; */
+    font-size: 12px;
+}
